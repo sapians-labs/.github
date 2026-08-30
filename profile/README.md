@@ -1,7 +1,7 @@
 <h1 align="center">SAPIANS Labs</h1>
 
 <p align="center">
-  <strong>Experiments and prototypes. Nothing here is built for production use.</strong>
+  <strong>Internal instruments that serve our own work. Not products.</strong>
 </p>
 
 <p align="center">
@@ -17,22 +17,29 @@
 ## Read this before using anything here
 
 Repositories in this organisation carry **no stability guarantee, no support,
-and no promise of continuity**. Interfaces change without notice. Repositories
-are archived when the question that motivated them has been answered.
+and no promise of continuity**. Interfaces change without notice.
 
-That is the point of the namespace, not a defect of it. Keeping experiments
+That is the point of the namespace, not a defect of it. Keeping internal tooling
 visibly separate is what lets [`sapians-hq`](https://github.com/sapians-hq) mean
-something: production systems with a support contract, and
-[`sapians-research`](https://github.com/sapians-research) mean something else:
-work meant to be cited.
+something — systems people outside SAPIANS depend on — and
+[`sapians-research`](https://github.com/sapians-research) mean something else
+again: work meant to be cited.
 
 If you need something you can depend on, it is not here.
 
 ## What belongs here
 
-Prototypes, spikes, and ideas that may become products and may equally be
-deleted. The test is simple: **would we be comfortable deleting this tomorrow?**
-If yes, it belongs here. If not, it belongs in one of the other two.
+One test, and it is about **audience**, not maturity: *does anyone outside
+SAPIANS depend on this?* If the answer is no, it belongs here — however mature
+the engineering, however active the development.
+
+That distinction matters because the two are easy to confuse. Some repositories
+here are worked on daily and carry stricter gates than parts of the product;
+others have been dormant for months. What they share is not a stage of life. It
+is that their only user is us.
+
+Work moves out of Labs when someone outside starts depending on it, not when it
+reaches some threshold of polish.
 
 ## Contact
 
